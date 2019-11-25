@@ -1,0 +1,13 @@
+x=int(input("enter the starting element"))
+y=int(input("enter the ending element"))
+for i in range(x,y):
+    if i % 3 == 0 and i % 5 == 0:
+        print("fizzbuzz")
+        continue
+    elif i % 3 == 0:
+        print("fizz")
+        continue
+    elif i % 5 == 0:
+        print("buzz")
+        continue
+    print(i)
