@@ -1,0 +1,10 @@
+from collections import Counter
+List = []
+number=int(input("enter the list length"))
+print("enter the element")
+for i in range(number):
+    data=int(input())
+    List.append(data)
+
+my_dict = {i:List.count(i) for i in List}
+print(my_dict)
