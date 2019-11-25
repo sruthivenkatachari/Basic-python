@@ -6,7 +6,6 @@ def amtpaid(obj):
        
      return sum
   
-# Driver Function 
 obj = {'Rick': 85, 'Amit':42, 'George':53, 'Tanya':60, 'Linda':35} 
 print("Sum :", amtpaid(obj)) 
 
