@@ -1,0 +1,12 @@
+List = []
+number=int(input("enter the list length"))
+print("enter the element")
+for i in range(number):
+    data=int(input())
+    List.append(data)
+    total=sum(List)
+print("Total score",total)
+b1=(List.index(4))
+b2=total-b1
+print("Batting1:",b1)
+print("Batting2:",b2)
